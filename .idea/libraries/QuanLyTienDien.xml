@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="QuanLyTienDien">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/QuanLyTienDien.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
