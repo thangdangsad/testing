@@ -17,7 +17,7 @@ import java.util.Properties;
 public class SQLServerConnect {
     // init database constants
     private static final String DATABASE_DRIVER = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-    private static final String DATABASE_URL = "jdbc:sqlserver://localhost:1433;databaseName=QUANLYTIENDIEN;";
+    private static final String DATABASE_URL = "jdbc:sqlserver://DUONGTHANG\\THANGDV;"+"database=master;";
     private static final String USERNAME = "sa";
     private static final String PASSWORD = "123456";
 

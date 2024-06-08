@@ -19,9 +19,9 @@ import views.DangKiView;
  * @author ADMIN
  */
 public class DangKiController {
-    DangKiView dangKiView;
-    SQLServerConnect sqlServerConnect;
-    Connection connection;
+    public DangKiView dangKiView;
+    public SQLServerConnect sqlServerConnect;
+    public Connection connection;
     public DangKiController(QuanLyTaiKhoanController qltkController){
         dangKiView = new DangKiView(qltkController);
         sqlServerConnect = new SQLServerConnect();
